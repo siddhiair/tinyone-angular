@@ -1,0 +1,39 @@
+footer{
+	background-color:#000;
+	color:#cecece;
+	padding-top:30px;
+	.footer-wrapper{
+		text-align:center;	
+		@media only screen and (min-width:768px){
+				display: flex;
+				display: -webkit-flex;
+				display: -moz-flex;
+				text-align:left;
+		}
+		.f-item{
+			margin-bottom: 25px;
+			@media only screen and (min-width:768px){
+					flex-grow:1;
+					-webkit-flex-grow:1;
+					-moz-flex-grow:1;
+			}
+			ul{
+				list-style-type: none;
+				padding-left: 0;
+				li{
+					strong{
+						color: #fff;
+						font-size: 16px;
+					}
+					a{
+						color: #cecece;
+						&:hover{
+							color: #fcdb00;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

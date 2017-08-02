@@ -1,0 +1,32 @@
+#subscription-section{
+	background-color:#000;
+	.section-heading{
+		color:#fcdb00;
+	}
+	.section-subheading{
+		color: #bbb;
+		margin-bottom:30px;
+	}
+	form{
+		.form-group{
+			@media only screen and (min-width:768px){
+				width: 60%;
+				margin-right: 10px;
+			}
+			input{
+				width: 100%;
+			}
+		}
+		input[type="email"]{
+			height: 45px;
+		}
+		.btn{
+			background-color:#fcdb00;
+			color: #000;
+			border:none;
+			font-weight: 700;
+			height: 45px;
+			padding: 6px 20px;
+		}
+	}
+}

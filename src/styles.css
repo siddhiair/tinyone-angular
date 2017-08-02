@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+section{
+	padding:50px 0;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.section-heading{
+	font-weight: 700;
+	color: #000;
+	font-size: 2em;
+}
+.section-subheading{
+	color: #333;
+	font-size: 1.3em;
+}
+textarea{
+	resize: vertical;
+	min-height: 100px;
+}
