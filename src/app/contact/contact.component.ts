@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+	personName:string = "Siddhi";
 
-  ngOnInit() {
-  }
+	constructor() { }
+
+	ngOnInit() {
+	}
+
+  	formsubmit(value:any){
+ 		console.log(value);
+	}
 
 }

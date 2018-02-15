@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { SubscriptionComponent } from './subscription/subscription.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { FormsModule } from '@angular/forms';
 
 const appRoutes:Routes=[
   {path:'', component:HomeComponent},
@@ -24,6 +25,7 @@ const appRoutes:Routes=[
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
